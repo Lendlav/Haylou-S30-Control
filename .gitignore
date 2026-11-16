@@ -1,0 +1,54 @@
+# Build outputs
+**/build/
+**/cmake-build-*/
+**/.gradle/
+**/out/
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.class
+*.dex
+*.apk
+*.aab
+*.apks
+*.jar
+*.aar
+*.gguf
+apps/android/assets/*
+!apps/android/assets/README.txt
+apps/android/third_party/
+
+# Signing material and credentials
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+*.asc
+.env
+.env.*
+*credentials*
+*secret*
+*token*
+*password*
+
+# Device dumps, captures, and firmware artifacts
+*.bin
+*.fw
+*.ufw
+*.hex
+*.dump
+*.pcap
+*.pcapng
+*pairing*
+*bluetooth*.log
+
+# User-provided copyrighted evidence kept only on this machine
+/docs/evidence/fcc/*.pdf
+
+# Local-only installers and unclassified inputs from Applications
+/.local-artifacts/
